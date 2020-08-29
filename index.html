@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music maker</title>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./m-style.css">
+    <link rel="stylesheet" media="screen and (max-width:900px)" href="./m-responsive.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading" data-text="BEAT MAKER">BEAT MAKER</h1>
+        <div class="bands">
+            <h3>KICKS</h3>
+            <div class="kick">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+            <h3>SNARE</h3>
+            <div class="snare">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+            <h3>HIHAT</h3>
+            <div class="hihat">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+                <input type="checkbox">
+            </div>
+        </div>
+        <input type="button" value="PLAY" class="btn">
+        <!-- <div class="bpmdiv">
+            <label for="bpm">BPM</label>
+            <input type="number" name="bpm">
+        </div> -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.7.44/Tone.js"
+        integrity="sha512-iS3y4sBZP69RAaTxQA/qq4ryBOT3lCv4tWqu++zT5H9sCfSQK52sPHDiXD99N85pbh9cEITvTKETXLPUh21UGA=="
+        crossorigin="anonymous"></script>
+    <script src="./m-script.js"></script>
+</body>
+
+</html>
