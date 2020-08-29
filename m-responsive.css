@@ -1,0 +1,19 @@
+.container::before{
+    height: 10;
+}
+/* heading */
+.heading{
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* Bands */
+.bands h3{
+    display: block;
+    font-size: 1.8rem;
+}
+.kick input, .snare input, .hihat input {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 1rem 0.5rem;
+}
