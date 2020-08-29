@@ -8,8 +8,6 @@ let counter=0;
 Tone.Transport.scheduleRepeat(repeatfunc, "8n");
 Tone.Transport.bpm.value=120;
 Tone.Transport.start();
-Tone.start();
-
 
 function repeatfunc(){
     let currbox=counter%8;
