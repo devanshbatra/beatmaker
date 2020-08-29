@@ -29,4 +29,4 @@ function repeatfunc(){
     counter++;
 }
 }
-Create.addEventListener("click", makemusic, {once: true}); //once true for not to repeat the func makemusic in case the user click it again 
+Create.addEventListener("click", makemusic, {once: true});
