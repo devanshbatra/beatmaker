@@ -9,6 +9,7 @@ Tone.Transport.scheduleRepeat(repeatfunc, "8n");
 Tone.Transport.bpm.value=120;
 Tone.Transport.start();
 
+
 function repeatfunc(){
     let currbox=counter%8;
     kickinput=document.querySelector(`.kick input:nth-child(${currbox+1})`);
@@ -27,4 +28,8 @@ function repeatfunc(){
     counter++;
 }
 }
-Create.addEventListener("click", makemusic, {once: true});
+Create.addEventListener("click", start, {once: true}); //once true for not to repeat the func makemusic in case the user click it again 
+function start(){
+    Tone.start();
+    makemusic();
+}
