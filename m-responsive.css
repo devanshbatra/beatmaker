@@ -1,3 +1,6 @@
+body{
+    overflow:hidden;
+}
 .container::before{
     background: url('./img/back6.png') no-repeat center  center/cover;
 }
