@@ -8,7 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Montserrat:wght@700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./m-style.css">
-    <link rel="stylesheet" media="screen and (max-width:900px)" href="./m-responsive.css">
+    <link rel="stylesheet" media="screen and (max-width:900px) and (min-width: 367px)" href="./m-responsive.css">
+    <link rel="stylesheet" media="screen and (max-width:367px)" href="./m-s-res.css">
 </head>
 
 <body>
@@ -49,7 +50,10 @@
                 <input type="checkbox">
             </div>
         </div>
-        <input type="button" value="PLAY" class="btn">
+        <div class="buttons">
+            <input type="button" value="PLAY" class="btn play">
+            <input type="button" value="CLEAR" class="btn clear">
+        </div>
         <!-- <div class="bpmdiv">
             <label for="bpm">BPM</label>
             <input type="number" name="bpm">
