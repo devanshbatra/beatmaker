@@ -1,3 +1,9 @@
+body{
+    overflow: hidden;
+}
+.container{
+    justify-content: space-between;
+}
 .container::before{
     background: url('./img/back6.png') no-repeat center  center/cover;
 }
@@ -5,6 +11,7 @@
 .heading{
     font-size: 3rem;
     text-align: center;
+    margin: 2.2rem;
 }
 
 /* Bands */
@@ -16,4 +23,7 @@
     width: 1.6rem;
     height: 1.6rem;
     margin: 1rem 0.5rem;
+}
+.btn{
+    margin: 20px 0px;
 }
