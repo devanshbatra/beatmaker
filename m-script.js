@@ -10,7 +10,7 @@ Tone.Transport.scheduleRepeat(repeatfunc, "8n");
 Tone.Transport.bpm.value=120;
 Tone.Transport.start();
 
-
+// main function
 function repeatfunc(){
     let currbox=counter%8;
     kickinput=document.querySelector(`.kick input:nth-child(${currbox+1})`);
