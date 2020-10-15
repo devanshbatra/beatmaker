@@ -1,6 +1,7 @@
 body{
     overflow: hidden;
 }
+/* Main container */
 .container{
     justify-content: space-between;
 }
